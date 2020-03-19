@@ -2,7 +2,7 @@
   ESA-B1 - sketch.js
   @author Evrard Vincent (vincent@ogre.be)
   @Date:   2020-03-18 15:00:50
-  @Last Modified time: 2020-03-19 13:41:59
+  @Last Modified time: 2020-03-19 13:55:25
 \*----------------------------------------*/
 
 function getPos(el) {
@@ -141,6 +141,7 @@ document.querySelectorAll(".text").forEach(function(parent){
 				}
 			});
 		}
+		update();
 		window.addEventListener("resize", update, false)
 		document.addEventListener("scroll", update, false)
 	});
