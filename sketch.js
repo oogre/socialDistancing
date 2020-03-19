@@ -2,7 +2,7 @@
   ESA-B1 - sketch.js
   @author Evrard Vincent (vincent@ogre.be)
   @Date:   2020-03-18 15:00:50
-  @Last Modified time: 2020-03-19 13:55:25
+  @Last Modified time: 2020-03-19 13:57:34
 \*----------------------------------------*/
 
 function getPos(el) {
@@ -134,7 +134,7 @@ document.querySelectorAll(".text").forEach(function(parent){
 			letters.map(function(self, k){
 				//self.confinement()
 				if(cursor>0){
-					self.cloud(letters.length, k, Math.abs(cursor), 5 + (l.length-c) * 125);	
+					self.cloud(letters.length, k, Math.abs(cursor), 5+ (l.length-c) * 250);	
 				}else {
 					self.circle(letters.length, k, Math.abs(cursor), 5 + (l.length-c) * 25);	
 					
