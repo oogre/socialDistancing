@@ -1,0 +1,33 @@
+/*
+* @Author: Evrard Vincent
+* @Date:   2020-03-18 15:08:00
+* @Last Modified by:   ogre
+* @Last Modified time: 2020-03-19 00:31:20
+*/
+html, body{
+	margin:0;
+	padding: 0; 
+	height: 100%;
+}
+
+body{
+	display: table;
+	height : 200%;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.text{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+}
+
+.letter{
+	display: inline-block;
+	white-space: pre-wrap;
+}
